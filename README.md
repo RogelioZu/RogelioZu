@@ -1,6 +1,6 @@
 # Hey, I'm Rogelio 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rogelio-zuriaga-reza)
+[![LinkedIn](https://www.linkedin.com/in/rogelio-zuriaga-reza-0484aa38b/)
 [![GitHub followers](https://img.shields.io/github/followers/RogelioZu?style=for-the-badge&logo=github)](https://github.com/RogelioZu)
 [![Hackathon Winner](https://img.shields.io/badge/MLH_Hackathon-Winner_🏆-gold?style=for-the-badge)](https://github.com/RogelioZu)
 
