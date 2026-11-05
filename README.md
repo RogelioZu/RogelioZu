@@ -71,7 +71,7 @@
     </td>
     <td align="center" valign="middle">
       <!-- MOST_USED_LANGUAGE_START -->
-      <b>my most used language: <code>HTML</code></b>
+      <b>my most used language: <code>DART</code></b>
       <!-- MOST_USED_LANGUAGE_END -->
       <br /><br />
       <img height="150" src="./anglerfish.gif" alt="Language Pixel Art Anglerfish" />
