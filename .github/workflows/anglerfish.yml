@@ -1,0 +1,34 @@
+name: Generate Anglerfish
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/anglerfish.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Anglerfish
+        uses: Anrogu/AnglerFish4U@b66a3aa74fd610a2ec3e08ed83ef578839aa38ec # v1.0.0
+        with:
+          github_username: RogelioZu
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add anglerfish.svg anglerfish.gif README.md
+          git diff --staged --quiet || git commit -m "chore: update language anglerfish"
+          git push

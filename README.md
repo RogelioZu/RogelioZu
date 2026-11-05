@@ -63,6 +63,23 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RogelioZu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img height="200" src="https://streak-stats.demolab.com/?user=RogelioZu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    </td>
+    <td align="center" valign="middle">
+      <!-- MOST_USED_LANGUAGE_START -->
+      <b>my most used language: <code>Python</code></b>
+      <!-- MOST_USED_LANGUAGE_END -->
+      <br /><br />
+      <img height="150" src="./anglerfish.gif" alt="Language Pixel Art Anglerfish" />
+    </td>
+  </tr>
+</table>
+</div>
+
 ---
 
 ## Contribution Graph 🐍
